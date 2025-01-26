@@ -1,0 +1,45 @@
+body{
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    color: #C00645;
+}
+
+.yes_button
+{
+    font-size: 50px;
+    color: darkgreen;
+    background-color: #D05D65;
+    border-width: 5px;
+    border-color: black;
+}
+
+.yes_button:hover
+{
+    border-color: lightgreen;
+}
+
+.no_button
+{
+    font-size: 50px;
+    color: darkred;
+    background-color: #D05D65;
+    border-width: 5px;
+    border-color: black;
+}
+
+.no_button:hover
+{
+    border-color: red;
+}
+
+html
+{
+    background-image: linear-gradient(to top right, #E7CDCE, #E1848C);
+}
+
+.gifs
+{
+    padding-top: 25px;
+}

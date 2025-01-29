@@ -13,11 +13,19 @@ body{
     background-color: #D05D65;
     border-width: 5px;
     border-color: black;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
 }
 
 .yes_button:hover
 {
     border-color: lightgreen;
+}
+
+.yes_button:active
+{
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
 }
 
 .no_button
@@ -27,11 +35,19 @@ body{
     background-color: #D05D65;
     border-width: 5px;
     border-color: black;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
 }
 
 .no_button:hover
 {
     border-color: red;
+}
+
+.no_button:active
+{
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
 }
 
 html
